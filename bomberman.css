@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+td{
+    height: 40px;
+    width: 40px;
+    border: 5px solid #433d3c;
+
+
+}
+#banner{
+    width:100%;
+    height:550px;
+    border:  1px solid  black;
+    background-color: cadetblue;
+    position: absolute;
+    display: none;
+    font-weight: bolder;
+    font-size: 50px;
+    color: burlywood;
+    text-align: center;
+}
+button{
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 45%;
+    margin-left: 20%;
+    font-size: 20px;
+    display: none;
+}
+p{
+    font-weight: bolder;
+    color: darkgray;
+    font-size: 30px;
+    padding-left: 26%;
+  }
+
+
+body{
+    background-color:#9f5f80;
+    align-items:center;
+    }
+.container {
+      padding-left: 10%;
+}
+#score-id{
+  color:#a685e2;
+}
